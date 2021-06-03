@@ -11,7 +11,7 @@ const {
 } = require('../homework');
 
 
-fdescribe('deObjetoAmatriz(objeto)', function() {
+describe('deObjetoAmatriz(objeto)', function() {
     it('should return an array, where each element represents a key-value pair in the form of an array.', function() {
         expect(deObjetoAmatriz({ x: 1, y: 2 })).toEqual([
             ["x", 1],
