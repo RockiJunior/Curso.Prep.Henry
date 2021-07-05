@@ -22,15 +22,15 @@ function numberOfCharacters(string) {
     //Escribe tu código aquí
 
     let stringToArr = string.split("");
-    let accumulator = {};
+    let obj = {};
     for (let i = 0; i < stringToArr.length; i++) {
-        if (!accumulator[stringToArr[i]]) {
-            accumulator[stringToArr[i]] = 1;
+        if (!obj[stringToArr[i]]) {
+            obj[stringToArr[i]] = 1;
         } else {
-            accumulator[stringToArr[i]] = accumulator[stringToArr[i]] + 1;
+            obj[stringToArr[i]] = obj[stringToArr[i]] + 1;
         }
     }
-    return accumulator;
+    return obj;
 }
 
 

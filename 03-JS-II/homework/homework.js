@@ -111,9 +111,11 @@ function esEntero(numero) {
     // Pista: Puedes resolver esto usando `Math.floor`
     // Tu código:
     let result = false;
+
     if (Number.isInteger(numero)) {
         result = true;
     }
+
     return result;
 }
 

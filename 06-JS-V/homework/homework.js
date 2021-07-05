@@ -58,6 +58,7 @@ function agregarStringInvertida() {
 //   Edad: 22,
 //   Domicilio: 'Saavedra 123'
 //  }
+// OJO, el ejercicio no va a pasar el test, porque se tiene que combinar con el siguiente para poder hacerlo. 
 
 class Persona {
     constructor(nombre, apellido, edad, domicilio) {
@@ -66,7 +67,6 @@ class Persona {
         this.edad = edad;
         this.domicilio = domicilio;
     }
-
     detalle() {
         return {
             nombre: this.nombre,
